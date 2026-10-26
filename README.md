@@ -34,7 +34,7 @@ Para evadir esta restricción (Bypass), se modificó la extensión del *payload*
 
 - **Usuario comprometido:** `www-data`
 - **Flag de usuario (user.txt):** `THM{******************************}`
-> **Evidencia:** ![Acceso inicial y flag de usuario](imagenes/user_flag.png)
+> **Evidencia:** ![Acceso inicial y flag de usuario](FLAG1.png)
 
 ### 3.3. Escalada de Privilegios
 Una vez dentro del sistema con privilegios limitados, se procedió a enumerar los binarios con el bit **SUID** activado, buscando vectores de escalada de privilegios.
