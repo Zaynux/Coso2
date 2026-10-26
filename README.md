@@ -34,7 +34,7 @@ Para evadir esta restricción (Bypass), se modificó la extensión del *payload*
 
 - **Usuario comprometido:** `www-data`
 - **Flag de usuario (user.txt):** `THM{******************************}`
-> **Evidencia:** ![Acceso inicial y flag de usuario](FLAG1.png)
+> **Evidencia:** ![Acceso inicial y flag de usuario](FLAGprimera.png)
 
 ### 3.3. Escalada de Privilegios
 Una vez dentro del sistema con privilegios limitados, se procedió a enumerar los binarios con el bit **SUID** activado, buscando vectores de escalada de privilegios.
@@ -46,7 +46,7 @@ Se identificó que el binario `/usr/bin/p****n` poseía permisos SUID anómalos.
 
 - **Usuario comprometido:** `root`
 - **Flag de root (root.txt):** `THM{******************************}`
-> **Evidencia:** ![Escalada de privilegios y flag root](imagenes/root_flag.png)
+> **Evidencia:** ![Escalada de privilegios y flag root](FLAG1.png)
 
 ---
 
