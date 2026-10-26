@@ -25,7 +25,7 @@ Al verificar que el puerto 80 alojaba un servidor web, se procedió a realizar f
 `gobuster dir -u http://<IP_OBJETIVO> -w /usr/share/wordlists/dirb/common.txt`
 
 *Hallazgos*: Se descubrieron rutas administrativas ocultas, incluyendo `/p***l` (formulario de subida) y `/u*****s` (directorio de almacenamiento de archivos subidos).
-> **Evidencia:** ![Escaneo de directorios](Coso2/GOBUSTER.png)
+> **Evidencia:** ![Escaneo de directorios](GOBUSTER.png)
 
 ### 3.2. Explotación (Obtención de Shell)
 En el directorio oculto de subida de archivos, se detectó una vulnerabilidad de **Unrestricted File Upload**. El servidor aplicaba un filtro básico que bloqueaba archivos con la extensión estándar `.php`. 
